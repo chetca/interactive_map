@@ -1,0 +1,16 @@
+table.simple-table{
+	width:100%;
+	border-collapse:collapse;
+	border:1px solid #000;}
+table.simple-table th{
+	text-align:center;
+	font-weight:bold;
+	padding:7px;
+	border:1px solid #000;}
+table.simple-table td{
+	text-align:left;
+	padding:5px;
+	border:1px solid #000;}
+hr.line{
+	padding:0px 10px;
+	background:#356c00;}

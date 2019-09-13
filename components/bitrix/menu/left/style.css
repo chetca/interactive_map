@@ -1,0 +1,33 @@
+/* Left menu*/
+ul.left-menu{
+	margin:10px;
+	background-color:#ffffff;
+	overflow:auto;
+	/*list-style-image:url(images/cursor.png);
+	list-style-position:inside;*/
+	list-style:none;
+	padding:0;
+	padding-top:5px;
+	position: relative; /*IE bug*/}
+
+ul.left-menu li{
+	padding:5px 10px;
+	text-align:left;
+	text-transform:uppercase;
+	font-size:14px;}
+ul.left-menu li.first{
+	list-style:none;}
+ul.left-menu li.first a{
+	color:#00417d;}
+
+ul.left-menu li a{
+	color:#00417d;
+	/*font-weight:bold;*/
+	text-decoration:none;
+	position:relative;
+	top:-3px;}
+ul.left-menu li a:hover{
+	color:#447bae;}
+
+
+
